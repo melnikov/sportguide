@@ -1,0 +1,28 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:clickable="true"
+	android:focusable="true"
+	android:background="@drawable/action_item_btn">
+        	
+	<ImageView
+		android:id="@+id/iv_icon" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"/>
+
+	<com.stexgroup.novinki.customviews.TextViewMainTheme
+	    android:id="@+id/tv_title"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginBottom="2dp"
+	    android:layout_marginTop="2dp"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="5dip"
+	    android:paddingRight="10dip"
+	    android:text="Chart"
+	    android:textColor="@color/black"
+	    android:textSize="15sp" />
+									         
+</LinearLayout>         

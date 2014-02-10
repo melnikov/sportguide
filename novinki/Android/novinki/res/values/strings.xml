@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Новинки</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="working_time">РАСПИСАНИЕ РАБОТЫ</string>
+    <string name="working_time_hint">КОГДА МОЖНО ПРИЕХАТЬ</string>
+    <string name="price">ЦЕНЫ</string>
+    <string name="price_hint">СТОИМОСТЬ ПРОКАТА И СКИ-ПАССОВ, ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</string>
+    <string name="contacts">КОНТАКТЫ</string>
+    <string name="contacts_hint">КАРТА ПРОЕЗДА, КАРТА КОМПЛЕКСА, СХЕМЫ СКЛОНОВ</string>
+    <string name="wearthe">ПОГОДА</string>
+    <string name="wearthe_hint">ПРОГНОЗ ПОГОДЫ И СОСТОЯНИЕ СКЛОНОВ</string>
+    <string name="photo">ФОТО, ВИДЕО</string>
+    <string name="photo_hint">ЗДЕСЬ МОЖНО ПОСМОТРЕТЬ</string>
+    <string name="novinki_logo">НОВИНКИ</string>
+    <string name="novinki_baza_ot">БАЗА ОТДЫХА</string>
+    
+    <string name="working_time_string">%d<sub>00</sub> - %d<sub>00</sub></string>
+    <string name="day1">ПОНЕДЕЛЬНИК</string>
+    <string name="day2">ВТОРНИК</string>
+    <string name="day3">СРЕДА</string>
+    <string name="day4">ЧЕТВЕРГ</string>
+    <string name="day5">ПЯТНИЦА</string>
+    <string name="day6">СУББОТА</string>
+    <string name="day7">ВОСКРЕСЕНЬЕ</string>
+    <string name="working_tine_button_hint">Подъемник \"Швабра\" обслуживает не менее 10 человек.</string>
+    <string name="working_time_hint2">Выдача спортивного инвентаря прекращается за 1 час до окончания рабочего дня.</string>
+    
+    
+    <string name="price_sub_1">ПОДЪЕМНИКИ</string>
+    <string name="price_sub_2">ПРОКАТ ИНВЕНТАРЯ</string>
+    <string name="price_sub_3">СНОУТЮБИНГ</string>
+    <string name="price_sub_4">ОБУЧЕНИЕ</string>
+    <string name="price_sub_5">SKI-СЕРВИС</string>
+    <string name="price_sub_6">КОННЫЕ ПРОГУЛКИ</string>
+    <string name="price_sub_7">КАФЕ</string>
+    <string name="price_sub_8">ГОСТИНИЦА</string>
+    
+    <string name="contacts_sub_1">КАРТА ПРОЕЗДА</string>
+    <string name="contacts_sub_2">КАРТА КОМПЛЕКСА</string>
+    <string name="price_podem_mod_fri">ПОНЕДЕЛЬНИК-ПЯТНИЦА</string>
+    <string name="price_podem_podem">ПОДЪЕМЫ</string>
+    <string name="price_podem_price">СТОИМОСТЬ</string>
+    <string name="price_podem_price_dc">СТОИМОСТЬ С ДК</string>
+    <string name="price_podem_botton_text">• Залоговая стоимость 1-ой карты электронного доступа ("ski-pass") - 100 руб.\n\n
+
+• ДК - дисконтная карта - 450 руб.\n\n
+
+• Катание бесплатно - пенсионерам от 65 лет (при прелъявлении документа) и детям до 6 лет (при условии, что пользование учебным склоном будет оплачено одним из сопровождающих ребенка взрослых)</string>
+    <string name="price_invetory_button_text">• За возврат снаряжения в более поздний срок - доплата в размере 300 руб. в час.\n\n• Снаряжение не бронируется. Передача снаряжения другим лицам запрещена! За неиспользованное время проката снаряжения денежные средства не возвращаются.\n\n• Снаряжение выдается под залог документов (техпаспорт на а/м или водительское уд.), либо под залог денежных средств в установленном размере. Паспорт РФ в качестве залога не принимается (согласно законодательству).\n\n• Оплата услуг означает согласие с Правилами пребывания на территории «Спортивной деревни Новинки»</string>
+    <string name="price_snow_tubing_text">• Стоимость проката ватрушки (вместе с подъемником) - 300 руб./30 мин.\n\n• Со своими ватрушками кататься категорически запрещено!</string>
+    <string name="price_training_button_text">• Стоимость подъемников в стоимость обучения не входит.</string>
+
+</resources>

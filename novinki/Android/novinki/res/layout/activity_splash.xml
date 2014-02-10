@@ -1,0 +1,239 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_main" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:scaleType="fitEnd"
+        android:src="@drawable/main_skys" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity" >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_working_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/working_time"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:typeface="normal" />
+
+                <ImageView
+                    android:id="@+id/ImageView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/working_time_hint"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:typeface="normal" />
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_hint"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contacts"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:typeface="normal" />
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts_hint"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wearthe"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:typeface="normal" />
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wearthe_hint"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photo"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:typeface="normal" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/photo_hint"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/image_view_dude_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="@drawable/dude" />
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

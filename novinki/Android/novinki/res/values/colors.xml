@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="whiteOpacity">#AAFFFFFF</color>
+    <color name="black">#000</color>
+    <color name="grey_font">#575757</color>
+    <color name="grey_menu_background">#3e4046</color>
+    <color name="blue_main_theme">#007fbb</color>
+    <color name="working_day_selected">#095970</color>
+    <color name="main_background">#fcf8e4</color>
+    <color name="transparent">#00000000</color>
+    <color name="table_bg">#095970</color>
+    
+</resources>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:orientation="vertical" >
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/novinki_logo"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="СНОУТЮБИНГ"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:text="СНОУТЮБИНГ (трасса для ватрушек)"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextViewMainTheme01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/price_snow_tubing_text"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
