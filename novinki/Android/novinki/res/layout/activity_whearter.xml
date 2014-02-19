@@ -1,0 +1,370 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:orientation="vertical" >
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/novinki_logo"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ПОГОДА"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@id/linear_layout_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w1_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="УТРО"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="10sp" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w1_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Сегодня"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/image_view_w1"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/weather_cloudy" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w1_graduce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0° C"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w2_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="УТРО"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="10sp" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w2_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Сегодня"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/image_view_w2"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/weather_cloudy" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w2_graduce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0° C"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w3_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="УТРО"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="10sp" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w3_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Сегодня"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/image_view_w3"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/weather_cloudy" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w3_graduce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="0° C"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextViewMainTheme01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="ВЛАЖНОСТЬ ВОЗДУХА"
+                android:textColor="@color/blue_main_theme"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/text_view_w1_humidity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="92%"
+                    android:textColor="@color/blue_main_theme"
+                    android:textSize="20sp" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/text_view_w2_humidity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="92%"
+                    android:textColor="@color/blue_main_theme"
+                    android:textSize="20sp" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/text_view_w3_humidity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="92%"
+                    android:textColor="@color/blue_main_theme"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextViewMainTheme05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:text="ВЕТЕР"
+                android:textColor="@color/blue_main_theme"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/image_view_w1_roza"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <com.stexgroup.novinki.customviews.TextViewMainTheme
+                            android:id="@+id/text_view_w1_roza"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center|left"
+                            android:text="З"
+                            android:textColor="@color/blue_main_theme"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w1_roza_speed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4 м/с"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/image_view_w2_roza"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <com.stexgroup.novinki.customviews.TextViewMainTheme
+                            android:id="@+id/text_view_w2_roza"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center|left"
+                            android:text="З"
+                            android:textColor="@color/blue_main_theme"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w2_roza_speed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4 м/с"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/image_view_w3_roza"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/star" />
+
+                        <com.stexgroup.novinki.customviews.TextViewMainTheme
+                            android:id="@+id/text_view_w3_roza"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center|left"
+                            android:text="Ю-З"
+                            android:textColor="@color/blue_main_theme"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/text_view_w3_roza_speed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4 м/с"
+                        android:textColor="@color/blue_main_theme"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

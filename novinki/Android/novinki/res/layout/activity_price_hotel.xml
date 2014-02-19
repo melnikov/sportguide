@@ -1,0 +1,413 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:orientation="vertical" >
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/novinki_logo"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ГОСТИННИЦА"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="НОМЕРА\n\nНОМЕР 2-Х МЕСТНЫЙ «ЭКОНОМ»\n12 м.кв., все удобства, TV"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView04"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0,5/1 СУТКИ"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ОТ 3 СУТОК"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ОТ 5 СУТОК"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/table_bg" >
+
+                <TableRow
+                    android:id="@+id/TableRow06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView29"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="950/1900 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1800 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView31"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1700 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+            </TableLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="НОМЕР 2-Х МЕСТНЫЙ «СТАНДАРТ»\n17 м.кв., все удобства, терраса, TV"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0,5/1 СУТКИ"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme04"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ОТ 3 СУТОК"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ОТ 5 СУТОК"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/table_bg" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView06"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1700/2300 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView07"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2200 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView05"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2100 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+            </TableLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="ГОСТЕВОЙ ДОМ 4-Х МЕСТНЫЙ\nДВА 2-Х МЕСТНЫХ НОМЕРА,\nвсе удобства, два этажа, холл, TV"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme07"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0,5/1 СУТКИ"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme06"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ОТ 3 СУТОК"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme05"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ОТ 5 СУТОК"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/table_bg" >
+
+                <TableRow
+                    android:id="@+id/TableRow02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme09"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="8000 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme08"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="7900 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="7800 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+            </TableLayout>
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextViewMainTheme01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/price_hotel_nomer_text"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size"
+                android:visibility="gone" />
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextViewMainTheme12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="САУНА"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="БУДНИЕ ДНИ"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextViewMainTheme16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="ПРАЗДНИЧНЫЕ И ВЫХОДНЫЕ ДНИ"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/table_bg" >
+
+                <TableRow
+                    android:id="@+id/TableRow01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="800 руб/час"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="1000 руб/час"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

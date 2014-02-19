@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:orientation="vertical" >
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="О приложении"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/TextViewMainTheme01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_text"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/image_view_link"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:src="@drawable/green_logo" />
+
+</LinearLayout>

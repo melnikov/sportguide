@@ -1,0 +1,405 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        android:orientation="vertical" >
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/novinki_logo"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <com.stexgroup.novinki.customviews.TextViewMainTheme
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="КОННЫЕ ПРОГУЛКИ"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.stexgroup.novinki.customviews.TextViewMainTheme
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:text="ТАРИФЫ"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/header_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView04"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="УСЛУГА"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ВРЕМЯ"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+
+                <com.stexgroup.novinki.customviews.TextViewMainTheme
+                    android:id="@+id/TextView02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ЦЕНА"
+                    android:textColor="@color/grey_font"
+                    android:textSize="@dimen/header_size" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/table_bg" >
+
+                <TableRow
+                    android:id="@+id/TableRow06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView29"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Катание на пони"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="45 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextView31"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="600 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme03"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Обучение (выходные)"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme04"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="45 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme02"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="600 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme06"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Обучение (будние)"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme07"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="45 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme05"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="550 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme09"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Обучение (клубная карта)"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="45 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme08"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="500 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Преодоление препятствий"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="45 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="700 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Выезд в поля"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="45 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1100 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme20"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Экскурсия"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme22"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="5-8 мин."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme21"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="100 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" >
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme17"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Абонемент"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="5 занятий/месяц"
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+
+                    <com.stexgroup.novinki.customviews.TextViewMainTheme
+                        android:id="@+id/TextViewMainTheme18"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2000 руб."
+                        android:textColor="@color/main_background"
+                        android:textSize="@dimen/header_size" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
