@@ -112,7 +112,7 @@ public class WheaterActivity extends Activity implements OnClickListener {
 		if (isOnLine(this)){
 			xml_ajax();
 		}else{
-			Toast.makeText(this, "Нет соединения с интернет или сервер погоды не отвечает.", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Нет соединения с интернетом или сервер погоды не отвечает.", Toast.LENGTH_LONG).show();
 		}
 		
 	}
