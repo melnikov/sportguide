@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		findViewById(R.id.linear_layout_price).setOnClickListener(this);
 		findViewById(R.id.linear_layout_weather).setOnClickListener(this);
 		findViewById(R.id.linear_layout_photo).setOnClickListener(this);
-		
+		findViewById(R.id.image_view_dude_btn).setOnClickListener(this);
 		initPriceMenu();
 		initContactsMenu();
 	}
@@ -56,10 +56,13 @@ public class MainActivity extends Activity implements OnClickListener {
 			showPriceMenu(v);
 			break;
 		case R.id.linear_layout_weather:
-			
+			startActivity(new Intent(MainActivity.this, WheaterActivity.class));
 			break;
 		case R.id.linear_layout_photo:
 			
+			break;
+		case R.id.image_view_dude_btn:
+			startActivity(new Intent(MainActivity.this, AboutActivity.class));
 			break;
 		default:
 			break;
@@ -120,6 +123,18 @@ public class MainActivity extends Activity implements OnClickListener {
 					break;
 				case ID_PRICE_4:
 					layoutId = R.layout.activity_price_trainig;
+					break;
+				case ID_PRICE_5:
+					layoutId = R.layout.activity_price_sky_service;
+					break;
+				case ID_PRICE_6:
+					layoutId = R.layout.activity_price_hourse;
+					break;
+				case ID_PRICE_7:
+					layoutId = R.layout.activity_price_bar;
+					break;
+				case ID_PRICE_8:
+					layoutId = R.layout.activity_price_hotel;
 					break;
 				default:
 					break;
